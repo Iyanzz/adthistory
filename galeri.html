@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeri Dekorasi Pernikahan | AdthiStory</title>
+  <meta name="description" content="Galeri portofolio dekorasi pernikahan AdthiStory: akad, siraman, gedung, outdoor, dan rumah. Melayani seluruh Jawa Tengah.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="logo">Adthi<span>Story</span></a>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="index.html#layanan">Layanan</a></li>
+          <li><a href="galeri.html" class="active">Galeri</a></li>
+          <li><a href="about.html">Tentang Kami</a></li>
+        </ul>
+      </nav>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <a href="https://wa.me/6281336307404" target="_blank" rel="noopener" class="nav-cta">
+          <i class="fa-brands fa-whatsapp"></i> <span>Chat WhatsApp</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= PAGE HERO ================= -->
+  <section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1920&q=80');">
+    <div class="container">
+      <span class="eyebrow" style="color:var(--gold-light);">Portofolio</span>
+      <h1>Galeri Momen Terindah</h1>
+      <p>Setiap dekorasi adalah cerita. Klik foto untuk melihat lebih dekat.</p>
+    </div>
+  </section>
+
+  <!-- ================= GALERI ================= -->
+  <section class="section" id="galeri-utama">
+    <div class="container">
+      <!-- Filter tabs -->
+      <div class="filter-tabs" role="tablist" aria-label="Filter kategori galeri">
+        <button class="filter-tab active" data-filter="all">Semua</button>
+        <button class="filter-tab" data-filter="akad">Akad</button>
+        <button class="filter-tab" data-filter="gedung">Gedung</button>
+        <button class="filter-tab" data-filter="outdoor">Outdoor</button>
+        <button class="filter-tab" data-filter="rumah">Rumah</button>
+        <button class="filter-tab" data-filter="siraman">Siraman</button>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- AKAD -->
+        <a class="gallery-item" href="#" data-category="akad" data-full="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=75" alt="Backdrop akad nikah dengan bunga segar" loading="lazy">
+          <span class="gallery-tag">Akad — Backdrop Premium</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="akad" data-full="https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?auto=format&fit=crop&w=700&q=75" alt="Dekorasi lilin akad intim" loading="lazy">
+          <span class="gallery-tag">Akad — Nuansa Candlelight</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="akad" data-full="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=700&q=75" alt="Meja akad elegan" loading="lazy">
+          <span class="gallery-tag">Akad — Detail Meja</span>
+        </a>
+
+        <!-- GEDUNG -->
+        <a class="gallery-item" href="#" data-category="gedung" data-full="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=700&q=75" alt="Ballroom resepsi megah" loading="lazy">
+          <span class="gallery-tag">Gedung — Ballroom Megah</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="gedung" data-full="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=700&q=75" alt="Table setting resepsi gedung" loading="lazy">
+          <span class="gallery-tag">Gedung — Table Setting</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="gedung" data-full="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=75" alt="Pelaminan mewah" loading="lazy">
+          <span class="gallery-tag">Gedung — Pelaminan Mewah</span>
+        </a>
+
+        <!-- OUTDOOR -->
+        <a class="gallery-item" href="#" data-category="outdoor" data-full="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=700&q=75" alt="Wedding arch garden wedding" loading="lazy">
+          <span class="gallery-tag">Outdoor — Wedding Arch</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="outdoor" data-full="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=700&q=75" alt="Resepsi outdoor senja dengan lampu" loading="lazy">
+          <span class="gallery-tag">Outdoor — Golden Hour</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="outdoor" data-full="https://images.unsplash.com/photo-1510076857177-7470076d4098?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1510076857177-7470076d4098?auto=format&fit=crop&w=700&q=75" alt="Garden wedding dengan tenda" loading="lazy">
+          <span class="gallery-tag">Outdoor — Garden Party</span>
+        </a>
+
+        <!-- RUMAH -->
+        <a class="gallery-item" href="#" data-category="rumah" data-full="https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?auto=format&fit=crop&w=700&q=75" alt="Dekorasi pernikahan intim di rumah" loading="lazy">
+          <span class="gallery-tag">Rumah — Intimate Wedding</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="rumah" data-full="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=700&q=75" alt="Momen pengantin di dekorasi rumah" loading="lazy">
+          <span class="gallery-tag">Rumah — Momen Hangat</span>
+        </a>
+
+        <!-- SIRAMAN -->
+        <a class="gallery-item" href="#" data-category="siraman" data-full="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=700&q=75" alt="Rangkaian bunga siraman" loading="lazy">
+          <span class="gallery-tag">Siraman — Bunga Setaman</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="siraman" data-full="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=700&q=75" alt="Detail bunga segar siraman" loading="lazy">
+          <span class="gallery-tag">Siraman — Floral Detail</span>
+        </a>
+        <a class="gallery-item" href="#" data-category="siraman" data-full="https://images.unsplash.com/photo-1521543832500-49e69fb2bea2?auto=format&fit=crop&w=1600&q=80">
+          <img src="https://images.unsplash.com/photo-1521543832500-49e69fb2bea2?auto=format&fit=crop&w=700&q=75" alt="Mawar dan melati untuk prosesi siraman" loading="lazy">
+          <span class="gallery-tag">Siraman — Mawar &amp; Melati</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="cta-final" style="background-image:url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1920&q=80');">
+    <div class="container">
+      <h2>Suka dengan <em>Karya Kami?</em></h2>
+      <p>Wujudkan dekorasi impian kalian. Konsultasi gratis via WhatsApp — semua paket bisa dicicil.</p>
+      <a href="https://wa.me/6281336307404" target="_blank" rel="noopener" class="btn btn-gold"><i class="fa-brands fa-whatsapp"></i> Chat WhatsApp Sekarang</a>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo">Adthi<span>Story</span></a>
+          <p>Setiap Detail Bercerita Tentang Kalian. Jasa dekorasi pernikahan premium yang melayani seluruh Jawa Tengah dengan sistem pembayaran yang bisa dicicil.</p>
+        </div>
+        <div>
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="dekorasi-akad.html">Dekorasi Akad</a></li>
+            <li><a href="dekorasi-siraman.html">Dekorasi Siraman</a></li>
+            <li><a href="dekorasi-gedung.html">Dekorasi Gedung</a></li>
+            <li><a href="dekorasi-outdoor.html">Dekorasi Outdoor</a></li>
+            <li><a href="dekorasi-rumah.html">Dekorasi Rumah</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Menu</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="about.html">Tentang Kami</a></li>
+            <li><a href="index.html#cara-kerja">Cara Kerja</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Kontak</h4>
+          <ul class="footer-contact">
+            <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/6281336307404" target="_blank" rel="noopener">0813-3630-7404</a></li>
+            <li><i class="fa-solid fa-location-dot"></i> Melayani seluruh Jawa Tengah</li>
+            <li><i class="fa-solid fa-clock"></i> Setiap hari, 08.00–21.00 WIB</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 <span>AdthiStory</span> Wedding Decoration. Setiap Detail Bercerita Tentang Kalian.
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/6281336307404" target="_blank" rel="noopener" class="wa-float" aria-label="Chat WhatsApp AdthiStory">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
